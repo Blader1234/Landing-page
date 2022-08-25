@@ -4,17 +4,52 @@
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
    font-family: 'Roboto', sans-serif;
 }
+body {
+    
+}
+img {
+    ;
+}
 .header {
     background-color: #1f2937;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: x-large;
-    padding: 5px;
+    padding-left: 20px;
+    height: 60px;
 }
 .header-links {
     display: flex;
-    justify-content: space-between;
+    flex: auto;
     margin: 5px;
     font-size: medium;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: whitesmoke;
+    display: flex;
+}
+.awesome {
+    
+    font-size: 48px;
+    font-weight: bolder;
+    padding-left: 20px;
+    height: 200px;
+    flex-direction: column;
+
+}
+.text {
+    font-size: medium;
+}
+footer {
+    background-color: #1f2937;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
