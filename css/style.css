@@ -1,14 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    box-sizing: content-box;
+    
    font-family: 'Roboto', sans-serif;
 }
 body {
     
+
 }
 img {
-    ;
+    flex: 1;
 }
 .header {
     background-color: #1f2937;
@@ -16,40 +18,69 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: x-large;
-    padding-left: 20px;
-    height: 60px;
+    font-size: 30px;
+    padding: 2rem 5rem;
+    
 }
 .header-links {
     display: flex;
-    flex: auto;
-    margin: 5px;
-    font-size: medium;
-    justify-content: flex-end;
+    font-size: 22px;
     gap: 10px;
+    justify-content: space-between;
 }
 .main {
-    display: flex;
+    
     justify-content: space-between;
+    display: flex;
     background-color: #1f2937;
     color: whitesmoke;
-    display: flex;
+    padding: 2rem 5rem;
 }
 .awesome {
-    
     font-size: 48px;
     font-weight: bolder;
-    padding-left: 20px;
-    height: 200px;
+    display: flex;
     flex-direction: column;
+    
+    
 
 }
 .text {
     font-size: medium;
 }
-footer {
-    background-color: #1f2937;
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
+.text button {
+    color: antiquewhite;
+    background-color: #053475;
+    font-size: larger;
+    padding: 5px;
+    border-radius: 10px;
 }
+.ill-text {
+    display: flex;
+    font-size: xx-large;
+    font-weight: 600;
+    justify-content: space-around;
+    padding: 2rem 5rem;
+}
+.random-info-container {
+    display: flex;
+    padding: 2rem 5rem;
+
+}
+.illustration-item-1, .illustration-item-2, .illustration-item-3, .illustration-item-4 {
+    display: flex;
+    
+    height: 50px;
+    margin: 10px auto;
+    border: black 2px solid;
+    border-radius: 5px;
+    justify-content: space-between;
+
+    
+}
+.illustration-text-1, .illustration-text-2, .illustration-text-3, .illustration-text-4 {
+    display: flex;
+    flex: 1;
+
+
+    justify-content: space-around;
