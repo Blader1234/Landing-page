@@ -5,13 +5,8 @@
     
    font-family: 'Roboto', sans-serif;
 }
-body {
-    
+/* header section*/
 
-}
-img {
-    flex: 1;
-}
 .header {
     background-color: #1f2937;
     color: whitesmoke;
@@ -24,10 +19,17 @@ img {
 }
 .header-links {
     display: flex;
+    
     font-size: 22px;
     gap: 10px;
     justify-content: space-between;
 }
+.header-links a {
+    text-decoration: none;
+    color: beige;
+}
+/*about part*/
+
 .main {
     
     justify-content: space-between;
@@ -41,13 +43,19 @@ img {
     font-weight: bolder;
     display: flex;
     flex-direction: column;
-    
-    
-
+}
+.awsome img {
+    flex: 1;
 }
 .text {
     font-size: medium;
+    padding: 20px;
+    
 }
+.text p {
+    padding: 5px;
+}
+
 .text button {
     color: antiquewhite;
     background-color: #053475;
@@ -55,6 +63,9 @@ img {
     padding: 5px;
     border-radius: 10px;
 }
+
+/* illustration section */
+
 .ill-text {
     display: flex;
     font-size: xx-large;
@@ -62,25 +73,61 @@ img {
     justify-content: space-around;
     padding: 2rem 5rem;
 }
-.random-info-container {
+.info-container{
     display: flex;
-    padding: 2rem 5rem;
-
-}
-.illustration-item-1, .illustration-item-2, .illustration-item-3, .illustration-item-4 {
-    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
     
-    height: 50px;
-    margin: 10px auto;
-    border: black 2px solid;
-    border-radius: 5px;
-    justify-content: space-between;
-
     
 }
-.illustration-text-1, .illustration-text-2, .illustration-text-3, .illustration-text-4 {
+.info-container img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #000206;
+    border-radius: 15px;
+    justify-content: ;
+    margin: 5px 20px 5px 20px;
+}
+/* quote section */
+.quote {
+    background: rgb(188, 191, 195);
+    padding: 100px;
+    
+    font-size: x-large;
+}
+.quote p {
+    font-style: italic;
+}
+.quote b {
     display: flex;
-    flex: 1;
-
-
+    justify-content: flex-end;
+}
+/*sign up*/
+.bottom {
+    background: blue;
+    display: flex;
+    padding: 40px;
     justify-content: space-around;
+    color: beige;
+} 
+
+.bottom button {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color:bisque;
+    background: blue;
+    margin: 5px;
+}
+/*foot note*/
+footer {
+    background-color: rgb(3, 12, 25);
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    
+    
+}
