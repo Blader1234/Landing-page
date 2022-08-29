@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 30px;
-    padding: 2rem 5rem;
+    padding: 4rem 5rem;
     
 }
 .header-links {
@@ -31,9 +31,8 @@
 /*about part*/
 
 .main {
-    
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
     background-color: #1f2937;
     color: whitesmoke;
     padding: 2rem 5rem;
@@ -44,8 +43,9 @@
     display: flex;
     flex-direction: column;
 }
-.awsome img {
-    flex: 1;
+.awesome img {
+    width: 200px;
+    height: 150px;
 }
 .text {
     font-size: medium;
